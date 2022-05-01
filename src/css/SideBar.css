@@ -1,0 +1,25 @@
+.sidebar-card {
+    /* background: #16161a !important; */
+    background: #242629;
+    height: 98vh;
+    border-radius: 15px;
+}
+
+.side-bar-headline {
+    color: #fffffe;
+}
+
+.side-bar-navigation>.side-bar-link {
+    color: #94a1b2 !important;
+    display: flex;
+    align-items: center;
+
+}
+
+.side-bar-navigation>.side-bar-link:hover {
+    color: #7f5af0 !important;
+}
+
+.side-bar-navigation>.side-bar-link.active {
+    color: #7f5af0 !important;
+}

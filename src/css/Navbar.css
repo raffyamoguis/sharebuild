@@ -1,0 +1,12 @@
+.navigation {
+    background: #242629;
+    border-radius: 15px;
+}
+
+.brand {
+    color: #fffffe !important;
+}
+
+#menu>.menu-link {
+    color: #fffffe !important;
+}

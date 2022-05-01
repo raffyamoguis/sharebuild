@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+::-webkit-input-placeholder {
+    /* Edge */
+    color: #94a1b2 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:-ms-input-placeholder {
+    /* Internet Explorer */
+    color: #94a1b2 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::placeholder {
+    color: #94a1b2 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+    /* background: #242629; */
+    background: #16161a;
+    color: #94a1b2;
+    font-family: 'Quicksand', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar-content {
+    padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.center-content {
+    padding: 10px;
+    /* border-left: .5px solid #484F70;
+    border-right: .5px solid #484F70; */
+}
+
+.right-content {
+    padding: 10px;
+}
+
+
+.hide {
+    display: none;
 }

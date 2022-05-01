@@ -1,0 +1,45 @@
+.top-builds-headline,
+.top-users-headline {
+    color: #94a1b2;
+}
+
+.top-builds-secondary,
+.top-users-secondary {
+    color: #fffffe;
+}
+
+.top-builds-more {
+    color: #7f5af0;
+    text-decoration: none;
+    cursor: default;
+}
+
+.xyz:hover {
+    border-radius: 5px;
+    background: #797979;
+    cursor: default;
+}
+
+.xyz a {
+    margin-left: .5em;
+}
+
+.abc:hover {
+    border-radius: 5px;
+    background: #797979;
+    cursor: default;
+}
+
+.text-mute {
+    color: #94a1b2;
+}
+
+.top-builds-card,
+.top-users-card {
+    background: #242629;
+    border-radius: 15px;
+}
+
+.games-slider {
+    border-radius: 15px;
+}
